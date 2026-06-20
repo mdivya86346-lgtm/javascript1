@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -17,6 +17,22 @@ function App()
       
           
      
-}
+}*/
 
-export default App
+import Home from "./components/Home"
+import About from "./components/about"
+
+export default function App()
+{
+  let isLogin=true
+  
+  return(
+   <>
+  <h1>hwddfsdf</h1>
+  {/* <Home /> */}
+  {/* <About /> */}
+  { isLogin ?  <Home/>:<About/>}
+   </>
+  )
+   
+}
