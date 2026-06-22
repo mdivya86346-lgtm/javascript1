@@ -19,7 +19,7 @@ function App()
      
 }*/
 
-import Home from "./components/Home"
+/*import Home from "./components/Home"
 import About from "./components/about"
 
 export default function App()
@@ -29,10 +29,36 @@ export default function App()
   return(
    <>
   <h1>hwddfsdf</h1>
-  {/* <Home /> */}
-  {/* <About /> */}
+  {<Home /> }
+  {} <About /> }
   { isLogin ?  <Home/>:<About/>}
    </>
   )
    
+} 
+*/
+
+/*import Home from "./components/Home"
+import About from "./components/about"
+export default function App(){
+  return(
+    <>
+    <Home name="sam" age='21'/>
+    </>
+  )
+}*/
+
+
+
+import Navbar from "./components/Navbar";
+import './App.css'
+
+
+export default function App() {
+  return (
+    <>
+    <Navbar />
+      
+    </>
+  )
 }
